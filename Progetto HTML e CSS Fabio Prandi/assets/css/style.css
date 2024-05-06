@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: #6cc4f0 !important;
+}
+
+.navbar, .container-fluid {
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  background-color: #6cc4f0;
+  height: 50px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.dashboard, .container-fluid {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 900px;
+  align-items: center;
+}
+
+.link-dash, .link-h1 {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  color: whitesmoke !important;
+  background-image: url(../../assets/img/Immagine3.png);
+  height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background-size: contain;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.presentation {
+  text-align: center;
+  background-color: #0796db;
+  background: linear-gradient(#0796db, #51bef4);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8em;
+  padding: 20px 0px 10px 0px;
+}
+
+.intro-img {
+  width: 100px;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.inserisci-dati {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #51bef4;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: whitesmoke !important;
+  background-color: #51bef4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+h5 {
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.sub-presentation, .skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.precedenti-esperienze, .each-skill, .precedenti-esperienze-lavoro {
+  text-align: center;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+  border-left: 2px solid #6dc8f5;
+  flex: 1;
+  background: linear-gradient(#51bef4, #6cc4f0);
+}
+
+.precedenti-esperienze-lavoro {
+  background: #51bef4;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 2em;
+  padding: 20px;
+  background: linear-gradient(#51bef4, #6cc4f0);
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+#first-name, #last-name, #phone, #email, #note {
+  background-color: #6cc4f0;
+  height: 35px;
+  border: 2px solid #0796db;
+  margin-top: 5px;
+  width: 250px;
+  border-radius: 7px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 7px;
+  border: 2px solid #0796db;
+  width: 100px;
+  height: 25px;
+  align-items: center;
+  background-color: #51bef4;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#6cc4f0, #0796db);
+}
+
+address {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 250;
+  text-align: center;
+  margin: 0px auto;
+  border: 0px;
+  height: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  display: inline;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
