@@ -12,7 +12,6 @@ body {
   top: 0;
   z-index: 100;
   display: flex;
-  justify-content: center;
   background-color: #6cc4f0;
   height: 50px;
   font-weight: bold;
@@ -38,7 +37,7 @@ p {
 
 h1 {
   color: whitesmoke !important;
-  background-image: url(../../assets/img/Immagine3.png);
+  background-image: url(../../assets/img/logo.png);
   height: 265px;
   display: flex;
   align-items: center;
@@ -101,20 +100,41 @@ h5 {
 .sub-presentation, .skills {
   display: flex;
   justify-content: space-around;
+  background: linear-gradient(#51bef4, #6cc4f0);
 }
 
-.precedenti-esperienze, .each-skill, .precedenti-esperienze-lavoro {
+.precedenti-esperienze, .each-skill, .precedenti-esperienze-lavoro{
   text-align: center;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   line-height: 1.4em;
   border-left: 2px solid #6dc8f5;
   flex: 1;
-  background: linear-gradient(#51bef4, #6cc4f0);
+  
 }
 
 .precedenti-esperienze-lavoro {
   background: #51bef4;
+}
+
+.button-progetti{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  height: 80px;
+  font-weight: 300;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.button-progetti > a {
+text-decoration: none;
+color: black;}
+
+.button-progetti:hover{
+cursor: pointer;
+background-color: #6dc8f5;
+font-weight: 400;
 }
 
 .form {
